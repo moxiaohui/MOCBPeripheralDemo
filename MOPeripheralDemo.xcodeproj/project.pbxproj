@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820E13FD2498A60700B78CAB /* MOPerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 820E13FC2498A60700B78CAB /* MOPerManager.m */; };
 		82E78F8621F6DD5D003D50DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E78F8521F6DD5D003D50DF /* AppDelegate.m */; };
 		82E78F8921F6DD5D003D50DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E78F8821F6DD5D003D50DF /* ViewController.m */; };
 		82E78F8C21F6DD5D003D50DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E78F8A21F6DD5D003D50DF /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		820E13FB2498A60700B78CAB /* MOPerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOPerManager.h; sourceTree = "<group>"; };
+		820E13FC2498A60700B78CAB /* MOPerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOPerManager.m; sourceTree = "<group>"; };
 		82E78F8121F6DD5D003D50DF /* MOPeripheralDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOPeripheralDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E78F8421F6DD5D003D50DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82E78F8521F6DD5D003D50DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				82E78F8521F6DD5D003D50DF /* AppDelegate.m */,
 				82E78F8721F6DD5D003D50DF /* ViewController.h */,
 				82E78F8821F6DD5D003D50DF /* ViewController.m */,
+				820E13FB2498A60700B78CAB /* MOPerManager.h */,
+				820E13FC2498A60700B78CAB /* MOPerManager.m */,
 				82E78F8A21F6DD5D003D50DF /* Main.storyboard */,
 				82E78F8D21F6DD5F003D50DF /* Assets.xcassets */,
 				82E78F8F21F6DD5F003D50DF /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 				82E78F8921F6DD5D003D50DF /* ViewController.m in Sources */,
 				82E78F9421F6DD5F003D50DF /* main.m in Sources */,
 				82E78F8621F6DD5D003D50DF /* AppDelegate.m in Sources */,
+				820E13FD2498A60700B78CAB /* MOPerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,14 +292,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9WUQQBVA6S;
+				DEVELOPMENT_TEAM = 2BQB79N6ZP;
 				INFOPLIST_FILE = MOPeripheralDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = moxiaoyan.MOPeripheralDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = moxiaoyan.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,14 +310,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9WUQQBVA6S;
+				DEVELOPMENT_TEAM = 2BQB79N6ZP;
 				INFOPLIST_FILE = MOPeripheralDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = moxiaoyan.MOPeripheralDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = moxiaoyan.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
